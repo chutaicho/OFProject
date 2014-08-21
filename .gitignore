@@ -1,0 +1,11 @@
+.DS_Store
+bin/*.app
+DerivedData/
+build/
+obj/
+*.sublime-workspace
+
+# xcode files
+*.xcodeproj
+*.plist
+*.xcconfig

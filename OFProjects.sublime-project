@@ -1,0 +1,34 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/T2/DATA/code/c/oF/of_v0.8.3_osx_release"
+		},
+		{
+			"path": "/Users/T2/DATA/code/c/oF/of_v0.8.3_osx_release/addons/alib"
+		}
+	],
+	"settings":
+	{
+		"add_language_option": true,
+		"additional_language_options":
+		{
+			"c":[],"c++":["-std=c++11"],"objc":[],"objc++":[]
+		},
+		"sublimeclang_enable_fast_completions": true,
+		"sublimeclang_options":
+		[
+			//"-Wno-logical-op-parentheses", // Test for BlobTracker 
+			"-Wno-deprecated-declarations",
+			"-Isystem",
+			"-I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/",
+			"-I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/c++/4.2.1/",
+			"-I/Users/T2/DATA/code/c/oF/of_v0.8.3_osx_release/libs/**",
+			"-I/Users/T2/DATA/code/c/oF/of_v0.8.3_osx_release/addons/**",
+			"-I${folder:${project_path:*.sublime-project}}/src/**"
+		]
+	}
+}
