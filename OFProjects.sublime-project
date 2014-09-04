@@ -5,10 +5,10 @@
 			"path": "."
 		},
 		{
-			"path": "/Users/T2/DATA/code/c/oF/of_v0.8.3_osx_release"
+			"path": "../../../libs/openFrameworks"
 		},
 		{
-			"path": "/Users/T2/DATA/code/c/oF/of_v0.8.3_osx_release/addons/alib"
+			"path": "../../../addons/alib"
 		}
 	],
 	"settings":

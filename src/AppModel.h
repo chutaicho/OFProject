@@ -11,7 +11,6 @@
 #include "aUtil.h"
 #include "aEasing.h"
 #include "aTimer.h"
-#include "aTemp.h"
 
 namespace App
 {
@@ -70,10 +69,7 @@ public:
     
 	void setup();
 	void update();
-
-	//void timerUpdate(ofxEventManager::Event& e);
-	//ofxEventManager::Event modelEvent;
-
+	
 	// console ////////////////////////////////////////
 
 	template <class T>

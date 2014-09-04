@@ -26,12 +26,6 @@ public:
 	void dragEvent(ofDragInfo dragInfo);
 	void gotMessage(ofMessage msg);
 
-	void callBackFunc(ofxEventManager::EventObj& e);
-	void fromModel(ofxEventManager::EventObj& e);
-
-	ofxEventManager::EventObj e1;
-	ofxEventManager::EventObj e2;
-
 private:
 	bool _showConsole;
 	AppModel* _model;

@@ -31,21 +31,14 @@ AppModel::~AppModel()
 void AppModel::setup()
 {
     _cAlpha = 0.f;
-
-    // simple timer test
-	_timer = new at::Timer();
-	_timer->setInterval(5);
-	//ofAddEventManager(_timer->completeEvent, this, &AppModel::timerUpdate);
-	_timer->start();
 }
 void AppModel::update()
 {
-	_timer->update();
-
 	float t = ofGetElapsedTimef();
 	float d = at::fastmap(t, 0, 1.0, 0.f, 1.f);
 	_cAlpha = (_cAlpha < 0.99)? at::easeInOutSine(d) : 1.0;
-	
+
+
 }
 void AppModel::drawConsole()
 {
@@ -68,10 +61,3 @@ void AppModel::drawConsole()
 
 #pragma mark -
 #pragma mark event
-
-// void AppModel::timerUpdate(ofxEventManager::Event& e)
-// {
-// 	static int lap = 0;
-// 	lap++;
-// 	std::cout << "timerUpdate, Event Called: " << lap << std::endl;	
-// }
